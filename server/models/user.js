@@ -10,7 +10,7 @@ var User = mongoose.model('User', {
 });
 
 // var newUser = new User({
-//   email: 'contact@bkdev.me'
+//   email: 'bkdev98@gmail.com'
 // });
 //
 // newUser.save().then((doc) => {
@@ -19,4 +19,4 @@ var User = mongoose.model('User', {
 //   console.log('Unable to save user', e);
 // });
 
-module.export = {User}
+module.exports = {User};
